@@ -4,11 +4,12 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
+  default = "wired-yeti-338315"
 }
 
 variable "region" {
   description = "Region for GCP resources. Choose as per your location: https://cloud.google.com/about/locations"
-  default = "europe-west6"
+  default = "asia-southeast1"
   type = string
 }
 
