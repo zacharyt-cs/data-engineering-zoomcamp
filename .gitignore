@@ -14,3 +14,5 @@
 serving_dir
 *.csv
 .ipynb_checkpoints/
+week_1_basics_n_setup/zachary-user.json
+week_1_basics_n_setup/2_docker_sql/data_pgadmin/pgadmin4.db
