@@ -34,7 +34,6 @@ def format_to_parquet(src_file):
     pq.write_table(table, src_file.replace('.csv', '.parquet'))
 
 
-# NOTE: takes 20 mins, at an upload speed of 800kbps. Faster if your internet has a better upload speed
 def upload_to_gcs(bucket, object_name, local_file):
     """
     Ref: https://cloud.google.com/storage/docs/uploading-objects#storage-upload-object-python
